@@ -38,7 +38,7 @@
 				<key>plist_keys</key>
 				<dict>
 					<key>CFBundleIdentifier</key>
-					<string>fw_app_bundle_id</string>
+					<string>bundleid</string>
 					<key>CFBundleVersion</key>
 					<string>version</string>
 				</dict>
@@ -49,6 +49,8 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>fw_app_bundle_id</key>
+				<string>%bundleid%</string>
 				<key>fw_app_version</key>
 				<string>%version%</string>
 				<key>fw_destination_root</key>
