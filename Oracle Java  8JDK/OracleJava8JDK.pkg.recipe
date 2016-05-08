@@ -24,7 +24,7 @@ http://www.oracle.com/technetwork/java/javase/terms/license/index.html
         <string>com.oracle.jdk</string>
     </dict>
     <key>MinimumVersion</key>
-    <string>0.2.9</string>
+    <string>0.6.0</string>
     <key>ParentRecipe</key>
     <string>com.github.hansen-m.download.OracleJava8JDK</string>
     <key>Process</key>

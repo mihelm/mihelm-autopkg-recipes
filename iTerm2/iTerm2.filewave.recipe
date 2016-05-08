@@ -14,7 +14,7 @@
 		<string>iTerm2</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.3.0</string>
+	<string>0.6.0</string>
 	<key>ParentRecipe</key>
 	<string>io.github.hjuutilainen.download.iTerm2</string>
 	<key>Process</key>

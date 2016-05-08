@@ -12,6 +12,8 @@
         <key>NAME</key>
         <string>FreeMind</string>
     </dict>
+	<key>MinimumVersion</key>
+	<string>0.6.0</string>
     <key>ParentRecipe</key>
     <string>com.github.prochat.download.freemind</string>
     <key>Process</key>
