@@ -3,7 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads FreeMind installer, imports into FileWave.</string>
+	<string>Downloads FreeMind DMG, creates an installer which includes the QuickLook
+	plug-in and imports the installer into FileWave.</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.filewave.FreeMind</string>
 	<key>Input</key>
@@ -14,7 +15,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.9</string>
 	<key>ParentRecipe</key>
-	<string>com.github.prochat.pkg.freemind</string>
+	<string>com.github.mihelm.autopkg.pkg.freemind</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -29,8 +30,6 @@
 				<key>fw_import_source</key>
 				<string>%pkg_path%</string>
 			</dict>
-			<key>Comment</key>
-			<string>Import the FreeMind pkg into FileWave</string>
 			<key>Processor</key>
 			<string>com.github.autopkg.filewave.FWTool/FileWaveImporter</string>
 		</dict>
