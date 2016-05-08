@@ -5,6 +5,11 @@
 	<key>Description</key>
 	<string>Downloads the installer for the latest FileMaker Pro 14 Updater and imports
 	it into FileWave.</string>
+	<key>Comment</key>
+	<string>This recipe only imports the updater for FileMaker Pro 14 into FileWave. It
+	can be adapted to import the updater for Pro Advanced instead. The updater needs to
+	be installed over a base install. com.github.bradclare.download.filemakerpro14 can
+	provide this with a manual run and manual import.</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.filewave.FileMakerPro14Updater</string>
 	<key>Input</key>
