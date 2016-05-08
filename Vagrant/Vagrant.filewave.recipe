@@ -4,6 +4,10 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads the latest Vagrant installer and imports it into FileWave.</string>
+	<key>Comment</key>
+	<string>It works now, but I had to add a function to the processor to get at
+	the version number. I've put everything in my branch for now, will sort it all
+	out before I merge.</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.filewave.Vagrant</string>
 	<key>Input</key>
