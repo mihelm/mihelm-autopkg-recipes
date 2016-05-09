@@ -92,13 +92,11 @@ class HashiCorpURLProvider(Processor):
         latest_version = versions[version_numbers[0]]
         builds = latest_version.get('builds', [])
         found_build = next((build for build in builds if build['os'] == operating_system and build['arch'] == architecture), None)
-        if found_build:
-            version = found_build.get('version', None)
-            if not version:
-                raise ProcessorError("No version found for os: %s, arch: %s" % (operating_system, architecture))
-            return version
-        else:
-            raise ProcessorError("No version for os: %s, arch: %s" % (operating_system, architecture))
+        # No check is performed as to whether a build was found. If there is no build,
+        # this function won't even get executed.
+        version = found_build.get('version', None)
+        # No error is raised if no version is found, since it's not critical information.
+        return version
     
     def main(self):
         project_name = self.env.get("project_name")
