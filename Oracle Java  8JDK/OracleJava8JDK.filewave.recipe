@@ -12,7 +12,7 @@
 		<string>Java JDK</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.6.0</string>
+	<string>0.6.1</string>
 	<key>ParentRecipe</key>
 	<string>com.github.mihelm.autopkg.pkg.oraclejava8jdk</string>
 	<key>Process</key>

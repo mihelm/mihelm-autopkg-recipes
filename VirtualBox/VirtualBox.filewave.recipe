@@ -12,7 +12,7 @@
 		<string>VirtualBox</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.6.0</string>
+	<string>0.6.1</string>
 	<key>ParentRecipe</key>
 	<string>com.github.sheagcraig.pkg.VirtualBox</string>
 	<key>Process</key>

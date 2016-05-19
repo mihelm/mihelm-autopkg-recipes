@@ -12,7 +12,7 @@
 		<string>LibreOffice</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.6.0</string>
+	<string>0.6.1</string>
 	<key>ParentRecipe</key>
 	<string>io.github.hjuutilainen.download.LibreOffice</string>
 	<key>Process</key>

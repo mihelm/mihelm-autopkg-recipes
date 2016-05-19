@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest Oracle Java 8 JDK release and copies out the flat installer pkg
 within the installer app wrapper, appending the version number to the filename.
-(Note the version of the actual pkg id for the com.oracle.jre pkg component is still
+(Note the version of the actual pkg id for the com.oracle.jdk pkg component is still
 always "1.0".)
 
 Read more about CPU and PSU releases here:
@@ -24,7 +24,7 @@ http://www.oracle.com/technetwork/java/javase/terms/license/index.html
         <string>com.oracle.jdk</string>
     </dict>
     <key>MinimumVersion</key>
-    <string>0.6.0</string>
+    <string>0.6.1</string>
     <key>ParentRecipe</key>
     <string>com.github.hansen-m.download.OracleJava8JDK</string>
     <key>Process</key>

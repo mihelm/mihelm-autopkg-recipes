@@ -12,7 +12,7 @@
 		<string>VMware Fusion</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.6.0</string>
+	<string>0.6.1</string>
 	<key>ParentRecipe</key>
 	<string>com.justinrummel.pkg.VMwareFusion</string>
 	<key>Process</key>
