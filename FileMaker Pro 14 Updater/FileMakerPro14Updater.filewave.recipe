@@ -25,48 +25,13 @@
 	<array>
         <dict>
             <key>Processor</key>
-            <string>FlatPkgUnpacker</string>
+            <string>PkgCopier</string>
             <key>Arguments</key>
             <dict>
-                <key>flat_pkg_path</key>
+                <key>source_pkg</key>
                 <string>%pathname%/*.pkg</string>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/unpack</string>
-                <key>purge_destination</key>
-                <true/>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>FileFinder</string>
-            <key>Arguments</key>
-            <dict>
-                <key>pattern</key>
-                <string>%RECIPE_CACHE_DIR%/unpack/fmp14*.pkg</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>PkgPayloadUnpacker</string>
-            <key>Arguments</key>
-            <dict>
-                <key>pkg_payload_path</key>
-                <string>%found_filename%/Payload</string>
-                <key>destination_path</key>
-                <string>%found_filename%.unpacked/</string>
-                <key>purge_destination</key>
-                <true/>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>Versioner</string>
-            <key>Arguments</key>
-            <dict>
-                <key>input_plist_path</key>
-                <string>%found_filename%.unpacked/FileMaker Application/Application/FileMaker Pro.app/Contents/Info.plist</string>
-                <key>plist_version_key</key>
-                <string>CFBundleVersion</string>
+                <key>pkg_path</key>
+                <string>%RECIPE_CACHE_DIR%/%NAME%-%url_version_number%.pkg</string>
             </dict>
         </dict>
 		<dict>
@@ -75,11 +40,11 @@
 				<key>fw_app_bundle_id</key>
 				<string>com.github.mihelm.autopkg.filewave.FileMakerPro14Updater</string>
 				<key>fw_app_version</key>
-				<string>%version%</string>
+				<string>%url_version_number%</string>
 				<key>fw_fileset_name</key>
-				<string>%NAME% - %version%</string>
+				<string>%NAME% - %url_version_number%</string>
 				<key>fw_import_source</key>
-				<string>%found_filename%</string>
+				<string>%pkg_path%</string>
 			</dict>
 			<key>Processor</key>
 			<string>com.github.autopkg.filewave.FWTool/FileWaveImporter</string>
