@@ -18,7 +18,7 @@
 		<string>FileMaker Pro 14 Updater</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.6.0</string>
+	<string>0.6.1</string>
 	<key>ParentRecipe</key>
 	<string>com.github.ygini.download.FileMaker14Updater</string>
 	<key>Process</key>
