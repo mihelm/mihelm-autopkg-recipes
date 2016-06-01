@@ -4,9 +4,9 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads latest version of Pages and imports it into FileWave.
-	For instructions on how the App Store recipes work, please consult:
-	https://github.com/autopkg/nmcspadden-recipes 
-	It's your responsibility to ensure you only deploy what you have licensed.</string>
+    For instructions on how the App Store recipes work, please consult:
+    https://github.com/autopkg/nmcspadden-recipes 
+    It's your responsibility to ensure you only deploy what you have licensed.</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.filewave.Pages</string>
 	<key>Input</key>

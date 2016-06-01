@@ -2,33 +2,33 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Description</key>
-    <string>Downloads latest installer for WebDrive and imports it into FileWave.</string>
-    <key>Identifier</key>
-    <string>com.github.mihelm.autopkg.filewave.WebDrive</string>
-    <key>Input</key>
-    <dict>
-        <key>NAME</key>
-        <string>WebDrive</string>
-    </dict>
-    <key>MinimumVersion</key>
-    <string>0.6.1</string>
-    <key>ParentRecipe</key>
-    <string>com.github.bochoven.recipes.webdrive.download</string>
-    <key>Process</key>
-    <array>
-        <dict>
-            <key>Processor</key>
-            <string>PkgCopier</string>
-            <key>Arguments</key>
-            <dict>
-                <key>source_pkg</key>
-                <string>%pathname%/*.pkg</string>
-                <key>pkg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
-            </dict>
-        </dict>
-        <dict>
+	<key>Description</key>
+	<string>Downloads latest installer for WebDrive and imports it into FileWave.</string>
+	<key>Identifier</key>
+	<string>com.github.mihelm.autopkg.filewave.WebDrive</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>WebDrive</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.6.1</string>
+	<key>ParentRecipe</key>
+	<string>com.github.bochoven.recipes.webdrive.download</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Processor</key>
+			<string>PkgCopier</string>
+			<key>Arguments</key>
+			<dict>
+				<key>source_pkg</key>
+				<string>%pathname%/*.pkg</string>
+				<key>pkg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>fw_app_bundle_id</key>
@@ -43,6 +43,6 @@
 			<key>Processor</key>
 			<string>com.github.autopkg.filewave.FWTool/FileWaveImporter</string>
 		</dict>
-    </array>
+	</array>
 </dict>
 </plist>

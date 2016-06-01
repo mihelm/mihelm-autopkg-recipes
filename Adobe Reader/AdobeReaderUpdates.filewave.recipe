@@ -4,13 +4,13 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads the latest patch for Adobe Reader and imports it into FileWave.
-	This recipe only provides the most recent update. You are going to need the full
-	installer for 11.0.10 as a base install. There is a download recipe you can use for 
-	that. And since this is Adobe, it's not as simple as just installing the most recent
-	patch over the base install. The 11.0.15 patch for instance was just a security
-	update and couldn't be installed on top of 11.0.10. In that particular case you first
-	needed to install the patch for 11.0.14. The download link provided by this recipe's
-	parent recipe can be adapted in a browser to get at previous patches.</string>
+    This recipe only provides the most recent update. You are going to need the full
+    installer for 11.0.10 as a base install. There is a download recipe you can use for 
+    that. And since this is Adobe, it's not as simple as just installing the most recent
+    patch over the base install. The 11.0.15 patch for instance was just a security
+    update and couldn't be installed on top of 11.0.10. In that particular case you first
+    needed to install the patch for 11.0.14. The download link provided by this recipe's
+    parent recipe can be adapted in a browser to get at previous patches.</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.filewave.AdobeReaderUpdates</string>
 	<key>Input</key>

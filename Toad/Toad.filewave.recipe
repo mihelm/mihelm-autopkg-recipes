@@ -4,8 +4,8 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads latest version of Toad and imports it into FileWave.
-	For instructions on how the App Store recipes work, please consult:
-	https://github.com/autopkg/nmcspadden-recipes</string>
+    For instructions on how the App Store recipes work, please consult:
+    https://github.com/autopkg/nmcspadden-recipes</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.filewave.Toad</string>
 	<key>Input</key>

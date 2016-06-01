@@ -27,7 +27,7 @@
 					<key>CFBundleIdentifier</key>
 					<string>bundleid</string>
 					<key>CFBundleShortVersionString</key>
-					<string>version</string>					
+					<string>version</string>
 				</dict>
 			</dict>
 			<key>Processor</key>

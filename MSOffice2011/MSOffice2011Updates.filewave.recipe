@@ -4,8 +4,8 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads Microsoft Office 2011 Update installer and imports it into FileWave.
-	The updates obtained by this recipe can be installed over Office 14.6.0 as a base
-	install.</string>
+    The updates obtained by this recipe can be installed over Office 14.6.0 as a base
+    install.</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.filewave.MSOffice2011.Update</string>
 	<key>Input</key>

@@ -4,12 +4,12 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads the installer for the latest FileMaker Pro 14 Updater and imports
-	it into FileWave.</string>
+    it into FileWave.</string>
 	<key>Comment</key>
 	<string>This recipe only imports the updater for FileMaker Pro 14 into FileWave. It
-	can be adapted to import the updater for Pro Advanced instead. The updater needs to
-	be installed over a base install. com.github.bradclare.download.filemakerpro14 can
-	provide this with a manual run and manual import.</string>
+    can be adapted to import the updater for Pro Advanced instead. The updater needs to
+    be installed over a base install. com.github.bradclare.download.filemakerpro14 can
+    provide this with a manual run and manual import.</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.filewave.FileMakerPro14Updater</string>
 	<key>Input</key>
@@ -23,17 +23,17 @@
 	<string>com.github.ygini.download.FileMaker14Updater</string>
 	<key>Process</key>
 	<array>
-        <dict>
-            <key>Processor</key>
-            <string>PkgCopier</string>
-            <key>Arguments</key>
-            <dict>
-                <key>source_pkg</key>
-                <string>%pathname%/*.pkg</string>
-                <key>pkg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%-%url_version_number%.pkg</string>
-            </dict>
-        </dict>
+		<dict>
+			<key>Processor</key>
+			<string>PkgCopier</string>
+			<key>Arguments</key>
+			<dict>
+				<key>source_pkg</key>
+				<string>%pathname%/*.pkg</string>
+				<key>pkg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%-%url_version_number%.pkg</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

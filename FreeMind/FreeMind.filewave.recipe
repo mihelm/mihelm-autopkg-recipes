@@ -4,7 +4,7 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads FreeMind DMG, creates an installer which includes the QuickLook
-	plug-in and imports the installer into FileWave.</string>
+    plug-in and imports the installer into FileWave.</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.filewave.FreeMind</string>
 	<key>Input</key>
