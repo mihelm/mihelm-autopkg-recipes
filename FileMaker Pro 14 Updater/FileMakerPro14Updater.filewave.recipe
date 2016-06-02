@@ -16,6 +16,8 @@
 	<dict>
 		<key>NAME</key>
 		<string>FileMaker Pro 14 Updater</string>
+		<key>fw_app_bundle_id</key>
+		<string>com.github.mihelm.autopkg.filewave.FileMakerPro14Updater</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
@@ -37,8 +39,6 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>fw_app_bundle_id</key>
-				<string>com.github.mihelm.autopkg.filewave.FileMakerPro14Updater</string>
 				<key>fw_app_version</key>
 				<string>%url_version_number%</string>
 				<key>fw_fileset_name</key>
