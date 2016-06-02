@@ -73,9 +73,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>pkgname</key>
-				<string>%NAME%-%version%</string>
+				<string>%NAME%-%dversion%</string>
 				<key>version</key>
-				<string>%version%</string>
+				<string>%dversion%</string>
 				<key>pkg_request</key>
 				<dict>
 					<key>pkgdir</key>
