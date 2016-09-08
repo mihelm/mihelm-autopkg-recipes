@@ -12,11 +12,13 @@
 		<string>GraphicConverter 9</string>
 		<key>fw_destination_root</key>
 		<string>/Applications/%NAME%.app</string>
+		<key>MAJOR_VERSION</key>
+		<string>9</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.homebysix.download.GraphicConverter9</string>
+	<string>com.github.homebysix.download.GraphicConverter</string>
 	<key>Process</key>
 	<array>
 		<dict>
