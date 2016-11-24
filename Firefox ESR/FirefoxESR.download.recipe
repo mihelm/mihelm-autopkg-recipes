@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Implemented this recipe based on a comment by Greg Neagle in an issue thread.</string>
+	<key>Identifier</key>
+	<string>com.github.mihelm.autopkg.download.FirefoxESR</string>
+	<key>Input</key>
+	<dict>
+		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+		<false/>
+		<key>LOCALE</key>
+		<string>en-US</string>
+		<key>NAME</key>
+		<string>Firefox</string>
+		<key>RELEASE</key>
+		<string>latest-esr</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.download.firefox-rc-en_US</string>
+</dict>
+</plist>
