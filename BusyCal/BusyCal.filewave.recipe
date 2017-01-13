@@ -10,50 +10,13 @@
 	<dict>
 		<key>NAME</key>
 		<string>BusyCal</string>
-		<key>fw_app_bundle_id</key>
-		<string>com.github.mihelm.autopkg.filewave.BusyCal</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.scriptingosx.download.BusyCal</string>
+	<string>com.github.mihelm.autopkg.pkg.BusyCal</string>
 	<key>Process</key>
 	<array>
-		<dict>
-			<key>Processor</key>
-			<string>FlatPkgUnpacker</string>
-			<key>Arguments</key>
-			<dict>
-				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/expanded</string>
-				<key>flat_pkg_path</key>
-				<string>%RECIPE_CACHE_DIR%/downloads/pkg/BusyCal Installer.pkg</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Processor</key>
-			<string>PkgPayloadUnpacker</string>
-			<key>Arguments</key>
-			<dict>
-				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/unpack</string>
-				<key>pkg_payload_path</key>
-				<string>%RECIPE_CACHE_DIR%/expanded/BusyCal.pkg/Payload</string>
-				<key>purge_destination</key>
-				<string>true</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Processor</key>
-			<string>Versioner</string>
-			<key>Arguments</key>
-			<dict>
-				<key>input_plist_path</key>
-				<string>%RECIPE_CACHE_DIR%/unpack/Contents/Info.plist</string>
-				<key>plist_version_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
@@ -63,6 +26,8 @@
 				<string>%NAME% - %version%</string>
 				<key>fw_import_source</key>
 				<string>%RECIPE_CACHE_DIR%/downloads/pkg/BusyCal Installer.pkg</string>
+				<key>fw_app_bundle_id</key>
+				<string>%bundleid%</string>
 			</dict>
 			<key>Processor</key>
 			<string>com.github.autopkg.filewave.FWTool/FileWaveImporter</string>
