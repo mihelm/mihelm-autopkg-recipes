@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads latest MenuMeters zip archive. Doesn't use the original release
+    from Raging Menace, but rather the upwards compatible fork by yujitach.</string>
+	<key>Identifier</key>
+	<string>com.github.mihelm.autopkg.download.MenuMeters</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>MenuMeters</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.1</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Processor</key>
+			<string>GitHubReleasesInfoProvider</string>
+			<key>Arguments</key>
+			<dict>
+				<key>github_repo</key>
+				<string>yujitach/MenuMeters</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>CURLDownloader</string>
+			<key>Arguments</key>
+			<dict>
+				<key>url</key>
+				<string>%url%</string>
+				<key>filename</key>
+				<string>%NAME%_%version%.zip</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+	</array>
+</dict>
+</plist>
