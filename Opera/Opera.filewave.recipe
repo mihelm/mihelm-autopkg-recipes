@@ -53,6 +53,8 @@
 				<dict>
 					<key>CFBundleVersion</key>
 					<string>long_version</string>
+					<key>CFBundleIdentifier</key>
+					<string>bundleid</string>
 				</dict>
 				<key>info_path</key>
 				<string>%pkgroot%/Applications/%NAME%.app/Contents/Info.plist</string>
