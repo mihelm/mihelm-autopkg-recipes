@@ -7,6 +7,9 @@
     For instructions on how the App Store recipes work, please consult:
     https://github.com/autopkg/nmcspadden-recipes 
     It's your responsibility to ensure you only deploy what you have licensed.</string>
+	<key>Comment</key>
+	<string>IPHOTO IS NO LONGER BEING MAINTAINED. THIS RECIPE WILL BE REMOVED
+    FROM MY REPO SOON.</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.filewave.iPhoto</string>
 	<key>Input</key>

@@ -4,6 +4,9 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads the current release version of CoRD and imports it into FileWave.</string>
+	<key>Comment</key>
+	<string>CORD IS NO LONGER BEING MAINTAINED. THIS RECIPE WILL BE REMOVED
+    FROM MY REPO SOON.</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.filewave.CoRD</string>
 	<key>Input</key>
