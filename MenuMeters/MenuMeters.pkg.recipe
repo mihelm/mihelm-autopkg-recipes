@@ -17,7 +17,7 @@
 		<string>terminal</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>ParentRecipe</key>
 	<string>com.github.mihelm.autopkg.download.MenuMeters</string>
 	<key>Process</key>

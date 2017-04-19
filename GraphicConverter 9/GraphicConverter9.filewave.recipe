@@ -16,7 +16,7 @@
 		<string>9</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.6.1</string>
+	<string>1.0.2</string>
 	<key>ParentRecipe</key>
 	<string>com.github.homebysix.download.GraphicConverter</string>
 	<key>Process</key>

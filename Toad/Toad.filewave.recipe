@@ -16,7 +16,7 @@
 		<string>com.github.mihelm.autopkg.filewave.Toad</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.6.1</string>
+	<string>1.0.2</string>
 	<key>ParentRecipe</key>
 	<string>com.github.nmcspadden.pkg.appstore</string>
 	<key>Process</key>

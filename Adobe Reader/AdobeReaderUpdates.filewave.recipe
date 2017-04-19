@@ -21,7 +21,7 @@
 		<string>Adobe Reader Update</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.6.1</string>
+	<string>1.0.2</string>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.download.AdobeReaderUpdates</string>
 	<key>Process</key>

@@ -14,7 +14,7 @@
 		<string>com.github.mihelm.autopkg.filewave.oraclejava8jdk</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.6.1</string>
+	<string>1.0.2</string>
 	<key>ParentRecipe</key>
 	<string>com.github.mihelm.autopkg.pkg.oraclejava8jdk</string>
 	<key>Process</key>

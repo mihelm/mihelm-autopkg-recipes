@@ -17,6 +17,8 @@
 		<key>RELEASE</key>
 		<string>latest-esr</string>
 	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.2</string>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.download.firefox-rc-en_US</string>
 </dict>

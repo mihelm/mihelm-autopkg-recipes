@@ -12,7 +12,7 @@
 		<string>BusyCal</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>ParentRecipe</key>
 	<string>com.github.mihelm.autopkg.pkg.BusyCal</string>
 	<key>Process</key>
