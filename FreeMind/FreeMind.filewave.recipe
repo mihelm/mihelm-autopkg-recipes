@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads FreeMind DMG, creates an installer which includes the QuickLook
-    plug-in and imports the installer into FileWave.</string>
+	<string>Downloads FreeMind DMG, creates an installer and imports the installer into
+    FileWave.</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.filewave.FreeMind</string>
 	<key>Input</key>
@@ -12,12 +12,12 @@
 		<key>NAME</key>
 		<string>FreeMind</string>
 		<key>fw_app_bundle_id</key>
-		<string>com.github.mihelm.autopkg.filewave.FreeMind</string>
+		<string>%bundleid%</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.2</string>
 	<key>ParentRecipe</key>
-	<string>com.github.mihelm.autopkg.pkg.freemind</string>
+	<string>com.github.prochat.pkg.freemind</string>
 	<key>Process</key>
 	<array>
 		<dict>
