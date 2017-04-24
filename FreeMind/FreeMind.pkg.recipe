@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Download FreeMind disk image and build a package that includes the QuickLook
-    plug-in.</string>
+	<string>Downloads FreeMind disk image and builds a package that includes the QuickLook
+    plug-in. Unfortunately, that doesn't work, so out with it.</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.pkg.freemind</string>
 	<key>Input</key>
@@ -38,10 +38,6 @@
 				<dict>
 					<key>Applications</key>
 					<string>0775</string>
-					<key>Library</key>
-					<string>0755</string>
-					<key>Library/QuickLook</key>
-					<string>0755</string>
 				</dict>
 			</dict>
 		</dict>
@@ -54,17 +50,6 @@
 				<string>%pathname%/FreeMind.app</string>
 				<key>destination_path</key>
 				<string>%pkgroot%/Applications/FreeMind.app</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Processor</key>
-			<string>Copier</string>
-			<key>Arguments</key>
-			<dict>
-				<key>source_path</key>
-				<string>%pathname%/FreemindQL.qlgenerator</string>
-				<key>destination_path</key>
-				<string>%pkgroot%/Library/QuickLook/FreemindQL.qlgenerator</string>
 			</dict>
 		</dict>
 		<dict>
@@ -93,22 +78,6 @@
 							<string>root</string>
 							<key>group</key>
 							<string>admin</string>
-						</dict>
-						<dict>
-							<key>path</key>
-							<string>Library</string>
-							<key>user</key>
-							<string>root</string>
-							<key>group</key>
-							<string>wheel</string>
-						</dict>
-						<dict>
-							<key>path</key>
-							<string>Library/QuickLook</string>
-							<key>user</key>
-							<string>root</string>
-							<key>group</key>
-							<string>wheel</string>
 						</dict>
 					</array>
 				</dict>
