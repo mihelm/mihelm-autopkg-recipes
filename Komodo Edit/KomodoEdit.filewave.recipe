@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads latest version of Komodo Edit 10 and imports it into FileWave.</string>
+	<string>Downloads latest version of Komodo Edit 11 and imports it into FileWave.</string>
 	<key>Identifier</key>
 	<string>com.github.mihelm.autopkg.filewave.KomodoEdit</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Komodo Edit 10</string>
+		<string>Komodo Edit 11</string>
 		<key>fw_destination_root</key>
 		<string>/Applications/%NAME%.app</string>
 	</dict>
