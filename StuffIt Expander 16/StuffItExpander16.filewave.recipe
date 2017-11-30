@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>StuffIt Expander 16</string>
+		<string>StuffIt Expander</string>
 		<key>fw_app_bundle_id</key>
 		<string>com.github.mihelm.autopkg.filewave.StuffItExpander16</string>
 	</dict>
